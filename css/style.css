@@ -31,7 +31,7 @@ p {
 }
 .hero {
   background-color: var(--secondary-color);
-  padding: 180px 20px;
+  padding: 120px 20px;
 }
 .greeting {
   font-weight: 700;
@@ -94,6 +94,21 @@ p {
   text-align: center;
   margin: 80px auto;
 }
+.my-photo{
+  border: 1px solid white;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+.my-photo:hover{
+  opacity: 1;
+}
+.aboutMe{
+  margin: 70px auto;
+}
+.aboutMe h1{
+  font-size: 54px;
+  line-height: 1.5;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -121,4 +136,5 @@ p {
   .sub-heading{
     margin: 20px auto;
   }
+  
 }
