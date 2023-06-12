@@ -99,10 +99,10 @@ p {
   border-radius: 50%;
   opacity: 0.9;
 }
-.aboutMe{
+.content-container{
   margin: 70px auto;
 }
-.aboutMe h1{
+.content-container h1{
   font-size: 54px;
   line-height: 1.5;
 }
@@ -127,6 +127,18 @@ img{
 }
 img:hover{
   transform: scale(1.05);
+}
+.img-title{
+  font-size: 24px;
+}
+.img-description{
+  font-size: 14px;
+}
+.work-img img{
+  max-height: 240px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
 }
 
 
@@ -156,16 +168,16 @@ img:hover{
   .sub-heading{
     margin: 20px auto;
   }
-  .about-content{
+  .content{
     text-align: center;
   }
-  .aboutMe h1{
+  .content-container h1{
     font-size: 44px;
   }
-  .aboutMe img{
+  .content-container img{
     margin-top: 30px;
   }
-  .aboutMe{
+  .content-container{
     margin: 20px auto;
   }
   .work-inquiry{
